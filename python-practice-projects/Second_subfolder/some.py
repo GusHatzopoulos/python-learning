@@ -1,6 +1,5 @@
 CONVERSION_FACTOR = 1.60934
 
-
 def miles_to_kilometers(miles: float) -> float:
     """Convert miles to kilometers."""
     return round(miles * CONVERSION_FACTOR, 2)

@@ -5,4 +5,4 @@ A structured Python learning repository covering core concepts, practice exercis
 - **python-core-concepts**: Core Python fundamentals
 - **python-practice-projects**: Small projects to practice concepts
 - **python-projects**: Complete and structured Python applications
-## Structure end
+## Structure end 
