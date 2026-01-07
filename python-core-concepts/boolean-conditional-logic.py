@@ -39,14 +39,14 @@ else:
     print("unlucky")
 '''
 
-color = input("What is your fave color? ")
-if color == "purple":
-    print("excelent choice!")
-elif color == "teal":
-    print("not bad")
-elif color == "seafoam":
-    print("quite good")
-elif color == "pure darkness":
-    print("I like the way you think")
-else:
-    print("You MONSTER!")
+# color = input("What is your fave color? ")
+# if color == "purple":
+#     print("excelent choice!")
+# elif color == "teal":
+#     print("not bad")
+# elif color == "seafoam":
+#     print("quite good")
+# elif color == "pure darkness":
+#     print("I like the way you think")
+# else:
+#     print("You MONSTER!")
