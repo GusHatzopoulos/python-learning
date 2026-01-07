@@ -47,6 +47,6 @@ elif color == "teal":
 elif color == "seafoam":
     print("quite good")
 elif color == "pure darkness":
-#     print("I like the way you think")
-# else:
-#     print("You MONSTER!")
+    print("I like the way you think")
+else:
+    print("You MONSTER!")
