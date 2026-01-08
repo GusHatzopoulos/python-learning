@@ -39,6 +39,7 @@ else:
     print("unlucky")
 '''
 
+'''
 color = input("What is your fave color? ")
 if color == "purple":
     print("excelent choice!")
@@ -50,3 +51,9 @@ elif color == "pure darkness":
     print("I like the way you think")
 else:
     print("You MONSTER!")
+'''
+
+animal = input("Enter your favorite animal: ")
+
+if animal:
+    print(f"{animal} is my favorite too!")
