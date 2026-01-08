@@ -8,7 +8,7 @@
 #             print("You can enter, but need a wristband.")
 #     elif age >= 21:
 #         # 21+ drink, normal entry
-#         print("You can enter and can drik")
+#         print("You can enter and can drink")
 #     else:
 #         # Too young - sorry
 #         print("You are too young to enter.")
@@ -24,7 +24,7 @@ if age:
     if age >= 21:
             print("You can enter, but need a wristband.")
     elif age >= 18:
-        print("You can enter and can drik")
+        print("You can enter and can drink")
     else:
         print("You are too young to enter.")
 else:
