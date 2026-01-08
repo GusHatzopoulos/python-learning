@@ -53,7 +53,18 @@ else:
     print("You MONSTER!")
 '''
 
+'''
 animal = input("Enter your favorite animal: ")
 
 if animal:
     print(f"{animal} is my favorite too!")
+else:
+    print("You didn't say anything.")
+'''
+
+city = input("Where do you live? ")
+
+if city == "Los Angeles" or city == "los angeles":
+    print("You live in California")
+else:
+    print("You live somewhere else.")
