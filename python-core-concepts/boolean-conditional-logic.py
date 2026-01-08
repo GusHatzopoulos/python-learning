@@ -62,9 +62,17 @@ else:
     print("You didn't say anything.")
 '''
 
+'''
 city = input("Where do you live? ")
 
 if city == "Los Angeles" or city == "los angeles":
     print("You live in California")
 else:
     print("You live somewhere else.")
+'''
+
+
+if not ((age >= 2 and age <= 8) or age >= 65):
+    print("You pay 10 dollars and you are not a child or senior!")
+else:
+    print("You are a child or senior.")
