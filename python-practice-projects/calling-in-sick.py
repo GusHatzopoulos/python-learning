@@ -10,5 +10,17 @@ sick_days = randint(0, 10)
 
 # NO TOUCHING ======================================
 
+# calling_in_sick = None  # set this to True or False with Boolean Logic and Conditionals!
 
-calling_in_sick = None  # set this to True or False with Boolean Logic and Conditionals!
+# YOUR CODE GOES HERE vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+calling_in_sick = input("Are you sick? ")
+if  actually_sick and sick_days > 0:
+    calling_in_sick = True
+elif kinda_sick and hate_your_job > 0:
+    calling_in_sick = True
+else:
+    calling_in_sick = False
+
+print(calling_in_sick)
+
+# YOUR CODE GOES HERE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
