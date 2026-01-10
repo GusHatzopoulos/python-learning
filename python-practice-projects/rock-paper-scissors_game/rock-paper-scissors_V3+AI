@@ -6,9 +6,21 @@ print("...Scissors...")
 
 choices = ["rock", "paper", "scissors"]
 
-player = input("Player, make your choice: ")
+player = input("Player, make your choice: ").lower()
 computer = choices[randint(0,2)]
 
-print(f"Player chose: {input}")
-print(f"Computer chose: {computer}")
+print(f"\nPlayer chose: {player}")
+print(f"Computer chose: {computer}\n")
 
+if player == computer:
+    print("Its a tie!")
+elif (
+    (player == "rock" and computer == "2") or
+    (player == "paper" and computer == "0") or
+    (player == "scissors" and computer == "1")
+):
+    print("Player wins the round!")
+else:
+    print("Computer wins the round!")
+
+print("SHOOT!")
