@@ -1,5 +1,6 @@
 from random import randint
 
+print("----------------------------------")
 print("...Rock...")
 print("...Paper...")
 print("...Scissors...")
@@ -9,8 +10,8 @@ choices = ["rock", "paper", "scissors"]
 player = input("Player, make your choice: ").lower()
 computer = choices[randint(0,2)]
 
-print(f"\nPlayer chose: {player}")
-print(f"Computer chose: {computer}\n")
+print(f"\n*******\nPlayer chose: {player}")
+print(f"Computer chose: {computer}\n*******\n")
 
 if player == computer:
     print("Its a tie!")
@@ -23,4 +24,4 @@ elif (
 else:
     print("Computer wins the round!")
 
-print("SHOOT!")
+print("----------------------------------")
