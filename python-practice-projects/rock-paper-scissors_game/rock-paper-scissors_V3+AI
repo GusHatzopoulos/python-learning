@@ -1,0 +1,25 @@
+from random import randint
+
+print("...Rock...")
+print("...Paper...")
+print("...Scissors...")
+
+choices = ["rock", "paper", "scissors"]
+
+player = input("Player make your choice: ").lower()
+computer = choices[randint(1, 3)]
+
+print(f"Computer chose: {computer}")
+
+if player == computer:
+    print("Its a tie!")
+elif (
+    (player == "rock" and computer == randint) or
+    (player == "paper" and computer == randint) or
+    (player == "scissors" and computer == randint)
+):
+    print("Player wins!")
+else:
+    print("Computer wins!")
+
+print("SHOOT!")

@@ -3,7 +3,7 @@ print("...Paper...")
 print("...Scissors...")
 
 player1 = input("(enter Player 1's choice): ")
-print("***NO CHEATING! GAME STARTED!***\n" * 20)
+print("***NO CHEATING! GAME STARTED!***\n" * 30)
 player2 = input("(enter Player 2's choice): ")
 
 if player1 == player2:
