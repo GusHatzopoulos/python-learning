@@ -1,3 +1,5 @@
+# Rock, Paper, Scissors - simple version
+
 print("...Rock...")
 print("...Paper...")
 print("...Scissors...")
