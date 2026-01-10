@@ -2,8 +2,8 @@ print("...Rock...")
 print("...Paper...")
 print("...Scissors...")
 
-player1 = input("(enter Player 1's choice): ")
-player2 = input("(enter Player 2's choice): ")
+player1 = input("(enter Player 1's choice): ").lower()
+player2 = input("(enter Player 2's choice): ").lower()
 
 if player1 == "rock" and player2 == "scissors":
   print("Player1 wins!")
