@@ -10,8 +10,8 @@ choices = ["rock", "paper", "scissors"]
 player = input("Player, make your choice: ").lower()
 computer = choices[randint(0,2)]
 
-# print(f"\n*******\nPlayer chose: {player}")
-# print(f"Computer chose: {computer}\n*******\n")
+print(f"\n*******\nPlayer chose: {player}")
+print(f"Computer chose: {computer}\n*******\n")
 
 if player == computer:
     print("Its a tie!")
