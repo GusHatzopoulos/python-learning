@@ -2,3 +2,6 @@
 
 # Program starts here ---
 
+# Program functionalities ---
+
+# Logic and game conditions
