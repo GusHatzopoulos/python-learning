@@ -13,7 +13,11 @@ elif player1 == "rock":
         print("Player1 wins!")
     elif player2 == "paper":
         print("Player 1 wins!")
-
+elif player1 == "paper":
+    if player2 == "rock":
+        print("Player1 wins!")
+    elif player2 == "scissors":
+        print("Player2 wins!")
 elif player1 == "scissors":
     if player2 == "paper":
         print("Player2 wins!")
