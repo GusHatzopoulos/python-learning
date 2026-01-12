@@ -4,4 +4,4 @@
 
 # Program functionalities ---
 
-Logic and game conditions
+# Logic and game conditions
