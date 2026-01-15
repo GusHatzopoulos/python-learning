@@ -17,16 +17,4 @@ elif (
 else:
     print("Player 2 wins!")
 
-
-# if player1 == player2:
-#     print("Its a tie!")
-# elif (
-#     (player1 == "rock" and player2 == "scissors") or
-#     (player1 == "paper" and player2 == "rock") or
-#     (player1 == "scissors" and player2 == "paper")
-# ):
-#     print("Player 1 wins!")
-# else:
-#     print("Player 2 wins!")
-
 print("SHOOT!")
