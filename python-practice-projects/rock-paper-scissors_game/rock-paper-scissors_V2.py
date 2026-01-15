@@ -25,5 +25,5 @@ elif player1 == "scissors":
         print("Player 2, wins!")
 else:
     print("Something went wrong.")
-        
+    
 print("SHOOT!")
