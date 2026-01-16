@@ -1,7 +1,27 @@
-Try to create an alternative version of RPS tommorow afternoon
+from random import randint
 
-Program starts here ---
+print("----------------------------------")
+print("...Rock...")
+print("...Paper...")
+print("...Scissors...")
 
-Program functionalities ---
+choices = ["rock", "paper", "scissors"]
 
-Logic and game conditions
+player = input("Player, make your choice: ").lower()
+computer = choices[randint(0,2)]
+
+print(f"\n*******\nPlayer chose: {player}")
+print(f"Computer chose: {computer}\n*******\n")
+
+if player == computer:
+     print("Its a tie!")
+elif (
+    (player == "rock" and computer == "2") or
+    (player == "paper" and computer == "0") or
+    (player == "scissors" and computer == "1")
+):
+    print("Player wins the round!")
+else:
+    print("Computer wins the round!")
+
+print("----------------------------------")
