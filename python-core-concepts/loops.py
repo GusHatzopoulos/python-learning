@@ -15,8 +15,8 @@
 # for num in range(100,-1, -5):
 #     print(num)
 
-x = 0
+# x = 0
 
-for n in range(10, 21):
-    if n % 2 != 0:
-        x += n
+# for n in range(10, 21):
+#     if n % 2 != 0:
+#         x += n
