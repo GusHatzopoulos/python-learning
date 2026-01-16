@@ -9,5 +9,13 @@
 # for num in range(10):
 #     print(num)
 
-for num in range(10,20, 2):
-    print(num)
+# for num in range(10,21, 2):
+#     print(num)
+
+# for num in range(100,-1, -5):
+#     print(num)
+
+x = 0
+
+for n in range(10, 21):
+    if n % 2 != 0:
