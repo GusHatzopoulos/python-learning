@@ -12,7 +12,7 @@ while True:
     if player in ("quit", "exit", "q"):
         print("Thanks for playing!")
         break
-    if player != choices:
+    if player not in choices:
         print("Invalid choice. Please choose rock, paper, or scissors.")
         continue
     
