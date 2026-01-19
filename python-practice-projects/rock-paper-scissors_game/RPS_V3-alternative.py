@@ -32,6 +32,6 @@ while True:
     ):
     #     print("Player wins the round!")
     # else:
-    #     print("Computer wins the round!")
+        print("Computer wins the round!")
 
 print("----------------------------------")
