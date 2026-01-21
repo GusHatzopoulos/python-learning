@@ -21,7 +21,7 @@ while True:
     print(f"\n************")
     print(f"Player chose: {player}")
     print(f"Computer chose: {computer}")
-    print(f"************\n")
+    # print(f"************\n")
 
     if player == computer:
         print("Its a tie!")
