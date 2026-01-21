@@ -31,7 +31,7 @@ while True:
         (player == "scissors" and computer == "paper")
     ):
          print("Player wins the round!")
-    # else:
+    else:
          print("Computer wins the round!")
 
 print("----------------------------------")
