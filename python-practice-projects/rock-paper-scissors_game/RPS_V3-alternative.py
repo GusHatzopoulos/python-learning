@@ -29,9 +29,9 @@ while True:
         (player == "rock" and computer == "scissors") or
         (player == "paper" and computer == "rock") or
         (player == "scissors" and computer == "paper")
-    ):
-        print("Player wins the round!")
-    else:
-        print("Computer wins the round!")
+    # ):
+    #     print("Player wins the round!")
+    # else:
+    #     print("Computer wins the round!")
 
 print("----------------------------------")
