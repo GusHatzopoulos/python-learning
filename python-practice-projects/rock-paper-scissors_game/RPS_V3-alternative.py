@@ -26,7 +26,7 @@ while True:
     if player == computer:
         print("Its a tie!")
     elif (
-        (player == "rock" and computer == "scissors") or
+        # (player == "rock" and computer == "scissors") or
         (player == "paper" and computer == "rock") or
         (player == "scissors" and computer == "paper")
     ):
