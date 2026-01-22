@@ -8,10 +8,9 @@ player1 = input("(enter Player 1's choice): ").lower()
 print("***NO CHEATING! GAME STARTED!***\n" * 10)
 player2 = input("(enter Player 2's choice): ").lower()
 
-if player1 != choices or player2 != choices:
+if player1 not in choices or player2 not in choices:
     print('Invalid input. Choose between "rock", "paper", "scissors".')
-
-if player1 == player2:
+elif player1 == player2:
     print("Its a tie!")
 elif (
     (player1 == "rock" and player2 == "scissors") or
