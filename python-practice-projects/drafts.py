@@ -1,21 +1,23 @@
+from random import randint
+
 print("...Rock...")
 print("...Paper...")
 print("...Scissors...")
 
 choices = ["rock", "paper", "scissors"]
 
-player1 = input("(enter Player 1's choice): ").lower()
+player = input("(enter Player 1's choice): ").lower()
 print("***NO CHEATING! GAME STARTED!***\n" * 10)
-player2 = input("(enter Player 2's choice): ").lower()
+computer = input("(enter Player 2's choice): ").lower()
 
-if player1 not in choices or player2 not in choices:
+if player not in choices or computer not in choices:
     print('Invalid input. Choose between "rock", "paper", "scissors".')
-elif player1 == player2:
+elif player == computer:
     print("Its a tie!")
 elif (
-    (player1 == "rock" and player2 == "scissors") or
-    (player1 == "paper" and  player2 == "rock") or
-    (player1 == "scissors" and player2 == "paper")
+    (player == "rock" and computer == "scissors") or
+    (player == "paper" and computer == "rock") or
+    (player == "scissors" and computer == "paper")
 ):
     print("Player 1 wins!")
 else:
