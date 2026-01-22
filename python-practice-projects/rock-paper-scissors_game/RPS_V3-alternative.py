@@ -8,7 +8,8 @@ while True:
     print("...Paper...")
     print("...Scissors...")
 
-    player = input("Player, make your choice: ").lower()
+    player = input('Player, make your choice between rock, paper, or scissors\n" \
+    "or type "quit", "exit" or "q", to quit the gane: ').lower()
     if player in ("quit", "exit", "q"):
         print("Thanks for playing!")
         break
