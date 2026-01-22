@@ -16,6 +16,6 @@ elif player2 == "rock":
     if player1 == "paper":
         print("Player 1 wins!")
     elif player1 == "scissors":
-        print("Player 1 wins!")
+        print("Player 2 wins!")         
 
 print("SHOOT!")
