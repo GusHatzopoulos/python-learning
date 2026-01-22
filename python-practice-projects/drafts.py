@@ -10,11 +10,14 @@ while True:
     # print("...Scissors...")
     print("SHOOT!")
 
-    player = input('Player, make your choice between "rock", "paper", or "scissors",\n' \
-        'or type "quit", "exit" or "q", to quit the gaμe: ').lower()
+    player = input(
+        'Player, make your choice between "rock", "paper", or "scissors",\n' \
+        'or type "quit", "exit" or "q", to quit the game: '
+        ).lower()
+    
     print("***NO CHEATING! GAME STARTED!***\n" * 6)
     if player in("quit", "exit", "q"):
-        print("Quitτing game. Thanks for playing!")
+        print("Quitting game. Thanks for playing!")
         break
     if player not in choices:
         print("Invalid choice. Choose between rock, paper, or scissors.")
