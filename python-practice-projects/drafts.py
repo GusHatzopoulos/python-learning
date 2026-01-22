@@ -1,4 +1,4 @@
-from random import randint
+from random import choice
 
 choices = ["rock", "paper", "scissors"]
 
@@ -10,26 +10,24 @@ while True:
     # print("...Scissors...")
     print("SHOOT!")
 
-    player = input('Player, make your choice between rock, paper, or scissors\n" \
-        "or type "quit", "exit" or "q", to quit the gane: ').lower()
+    player = input('Player, make your choice between "rock", "paper", or "scissors",\n' \
+        'or type "quit", "exit" or "q", to quit the gaμe: ').lower()
     print("***NO CHEATING! GAME STARTED!***\n" * 6)
     if player in("quit", "exit", "q"):
-        print("Quiting game. Thanks for playing!")
+        print("Quitτing game. Thanks for playing!")
         break
     if player not in choices:
         print("Invalid choice. Choose between rock, paper, or scissors.")
         continue
 
-    computer = choices[randint(0,2)]
+    computer = choice(choices)
 
     print(f"\n************")
     print(f"Player chose {player}.")
     print(f"Computer chose {computer}.")
     print(f"\n************")
 
-    if player not in choices or computer not in choices:
-        print('Invalid input. Choose between "rock", "paper", "scissors".')
-    elif player == computer:
+    if player == computer:
         print("Its a tie!")
     elif (
         (player == "rock" and computer == "scissors") or
