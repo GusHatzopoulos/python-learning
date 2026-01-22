@@ -2,9 +2,14 @@ print("...Rock...")
 print("...Paper...")
 print("...Scissors...")
 
+choices = ["rock", "paper", "scissors"]
+
 player1 = input("(enter Player 1's choice): ").lower()
 print("***NO CHEATING! GAME STARTED!***\n" * 10)
 player2 = input("(enter Player 2's choice): ").lower()
+
+if player1 != choices or player2 != choices:
+    print('Invalid input. Choose between "rock", "paper", "scissors".')
 
 if player1 == player2:
     print("Its a tie!")
