@@ -6,9 +6,10 @@ print("...Scissors...")
 
 choices = ["rock", "paper", "scissors"]
 
-player = input("(enter Player 1's choice): ").lower()
+player = input('Player, make your choice between rock, paper, or scissors\n" \
+    "or type "quit", "exit" or "q", to quit the gane: ').lower()
 print("***NO CHEATING! GAME STARTED!***\n" * 10)
-computer = input("(enter Player 2's choice): ").lower()
+computer = choices[randint(0,2)]
 
 if player not in choices or computer not in choices:
     print('Invalid input. Choose between "rock", "paper", "scissors".')
@@ -21,6 +22,6 @@ elif (
 ):
     print("Player 1 wins!")
 else:
-    print("Player 2 wins!")
+    print("Computer wins!")
 
 print("SHOOT!")
