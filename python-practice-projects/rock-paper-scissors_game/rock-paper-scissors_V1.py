@@ -2,12 +2,12 @@ print("...Rock...")
 print("...Paper...")
 print("...Scissors...")
 
+player1 = input("Player 1, make your move: ").lower()
+player2 = input("Player 2, make your move: ").lower()
+
 choices = ["rock", "paper", "scissors"]
 if player1 not in choices or player2 not in choices:
       print('"Invalid/wrong input. Choose between "rock", "paper", "scissors"."')
-
-player1 = input("Player 1, make your move: ").lower()
-player2 = input("Player 2, make your move: ").lower()
 
 if player1 == player2:
     print("Its a tie!")
