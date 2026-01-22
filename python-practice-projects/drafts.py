@@ -16,8 +16,8 @@ while True:
         ).lower()
     
     print("***NO CHEATING! GAME STARTED!***\n" * 6)
-    
-    if player in("quit", "exit", "q"):
+
+    if player in(quit_cmds):
         print("Quitting game. Thanks for playing!")
         break
     if player not in choices:
@@ -33,12 +33,16 @@ while True:
 
     if player == computer:
         print("Its a tie!")
-    elif (
-        (player == "rock" and computer == "scissors") or
-        (player == "paper" and computer == "rock") or
-        (player == "scissors" and computer == "paper")
-    ):
+    elif wins_against[player] == computer:
         print("Player wins the round!")
     else:
         print("Computer wins the round!")
+    # elif (
+    #     (player == "rock" and computer == "scissors") or
+    #     (player == "paper" and computer == "rock") or
+    #     (player == "scissors" and computer == "paper")
+    # ):
+    #     print("Player wins the round!")
+    # else:
+    #     print("Computer wins the round!")
 print("----------------------------------")
