@@ -1,13 +1,13 @@
 from random import choice
 
 choices = ["rock", "paper", "scissors"]
+wins_against = {"rock": "scissors", "paper": "rock", "scissors": "paper"}
+quit_cmds = ["quit", "exit", "q"]
 
 while True:
 
     print("----------------------------------")
     print("...Rock...\n...Paper...\n...Scissors...")
-    # print("...Paper...")
-    # print("...Scissors...")
     print("SHOOT!")
 
     player = input(
@@ -16,6 +16,7 @@ while True:
         ).lower()
     
     print("***NO CHEATING! GAME STARTED!***\n" * 6)
+    
     if player in("quit", "exit", "q"):
         print("Quitting game. Thanks for playing!")
         break
