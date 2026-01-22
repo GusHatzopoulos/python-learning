@@ -21,14 +21,14 @@ while True:
     print(f"\n************")
     print(f"Player chose: {player}")
     print(f"Computer chose: {computer}")
-    # print(f"************\n")
+    print(f"************\n")
 
     if player == computer:
         print("Its a tie!")
     elif (
-        # (player == "rock" and computer == "scissors") or
-        # (player == "paper" and computer == "rock") or
-        # (player == "scissors" and computer == "paper")
+        (player == "rock" and computer == "scissors") or
+        (player == "paper" and computer == "rock") or
+        (player == "scissors" and computer == "paper")
     ):
          print("Player wins the round!")
     else:
