@@ -15,6 +15,13 @@ while True:
         ).lower() 
     
     print("***NO CHEATING!***\n * 6")
+
+    if player in(quit_cmds):
+        print("Quiting game. Thanks for playing!")
+        break
+    if player not in(choices):
+        print("Invalid choice. Choose between rock, paper, or scissors.")
+        continue
     
 
 
