@@ -23,7 +23,7 @@ while True:
         print("Invalid choice. Choose between rock, paper, or scissors.")
         continue
     
-
+    print(f"{player} choose to do: {choices} or {quit_cmds}")
 
 
 
