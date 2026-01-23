@@ -23,7 +23,7 @@ while True:
         print("Invalid choice. Choose between rock, paper, or scissors.")
         continue
     
-    print(f"Player choose {player}.")
+    # print(f"[DEBUG] player = {player!r}.")
 
 
 
