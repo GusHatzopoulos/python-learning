@@ -1,4 +1,4 @@
-from random import choices
+from random import choice
 
 choices = ["rock", "paper", "scissors"]
 wins_against = {"rock": "scissors", "paper": "rock", "scissors": "paper"}
@@ -22,10 +22,21 @@ while True:
     if player not in(choices):
         print("Invalid choice. Choose between rock, paper, or scissors.")
         continue
+
+    computer = choice(choices)
+
+    print("\n************")
+    print(f"Player chose {player}.")
+    print(f"Computer chose {computer}.")
+    print("\n************")
+
+    if player == computer:
+        print("It's a tie!")
+    elif wins_against[player] == computer:
+        print("Player winsm the round!")
+    else:
+        print("Comouter wins the round!")
     
     # print(f"[DEBUG] player = {player!r}.")
-
-
-
 
     print("----------------------------------")
