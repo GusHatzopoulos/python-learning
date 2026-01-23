@@ -14,7 +14,7 @@ while True:
         'or type "quit", "exit" or "q", to quit the game: '
         ).lower() 
     
-    print("***NO CHEATING!***\n * 6")
+    print("***NO CHEATING!***\n" * 6)
 
     if player in(quit_cmds):
         print("Quiting game. Thanks for playing!")
