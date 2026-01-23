@@ -12,7 +12,7 @@ while True:
     player = input(
         'Player, make your choice between "rock", "paper", or "scissors",\n' \
         'or type "quit", "exit" or "q", to quit the game: '
-        ).lower()
+        ).lower() 
     
     
 
