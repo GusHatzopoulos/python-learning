@@ -14,6 +14,7 @@ while True:
         'or type "quit", "exit" or "q", to quit the game: '
         ).lower() 
     
+    print("***NO CHEATING!***\n * 6")
     
 
 
