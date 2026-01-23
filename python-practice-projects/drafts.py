@@ -23,10 +23,8 @@ while True:
         print("Invalid choice. Choose between rock, paper, or scissors.")
         continue
     
-    if player == choices:
-        print(f"Player choose {choices}.")
-    else:
-        print(f"Player chose {quit_cmds}.")
+    print(f"DEBUG | Player choose {player}.")
+
 
 
 
