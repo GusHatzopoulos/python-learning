@@ -23,6 +23,13 @@ while True:
 
     print("***NO CHEATING!***\n" * 6)
 
-    print(f"[DEBUG] player = {player!r}.")
+    computer = computer(choices)
+
+    print("\n************")
+    print(f"Player chose {player}.")
+    print(f"Computer chose {computer}.")
+    print("\n************")
+
+    # print(f"[DEBUG] player = {player!r}.")
 
     print("----------------------------------")
