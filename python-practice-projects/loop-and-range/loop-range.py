@@ -12,3 +12,5 @@ print(x)
 [40,32,73]
 for char in "Hello":
     print(char)
+
+range(1,10)
