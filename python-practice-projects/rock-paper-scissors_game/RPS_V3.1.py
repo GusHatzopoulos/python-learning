@@ -33,7 +33,7 @@ while True:
     if player == computer:
         print("It's a tie!")
     elif wins_against[player] == computer:
-        print("Player wins the round!" ) 
+        print("Player wins the round!" )
     else:
         print("Computer wins!")
 
