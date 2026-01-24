@@ -1,7 +1,7 @@
 from random import choice
 
 choices = ["rock", "paper", "scissors"]
-wins_against = {"rock": "scissors", "paper": "rock", "scissors": "rock"}
+wins_against = {"rock": "scissors", "paper": "rock", "scissors": "paper"}
 quit_cmds = ["quit", "exit", "q"]
 
 while True:
@@ -14,16 +14,16 @@ while True:
         'or type "quit", "exit" or "q", to quit the game: '
     ).lower()
 
-    if player in(quit_cmds):
-        print("Quiting game. Thanks for playing!")
+    if player in quit_cmds:
+        print("Quitting game. Thanks for playing!")
         break
-    if player not in(choices):
+    if player not in choices:
         print("Invalid choice. Choose between rock, paper, or scissors.")
         continue
 
     print("***NO CHEATING!***\n" * 6)
 
-    computer = computer(choices)
+    computer = choice(choices)
 
     print("\n************")
     print(f"Player chose {player}.")
@@ -32,7 +32,7 @@ while True:
 
     if player == computer:
         print("It's a tie!")
-    elif player in(wins_against):
+    elif wins_against[player] == computer:
         print("Player wins the round!" ) 
     else:
         print("Computer wins!")
