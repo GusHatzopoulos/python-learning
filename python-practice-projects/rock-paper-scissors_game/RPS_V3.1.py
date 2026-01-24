@@ -30,6 +30,13 @@ while True:
     print(f"Computer chose {computer}.")
     print("\n************")
 
+    if player == computer:
+        print("It's a tie!")
+    elif player in(wins_against):
+        print("Player wins the round!" ) 
+    else:
+        print("Computer wins!")
+
     # print(f"[DEBUG] player = {player!r}.")
 
     print("----------------------------------")
