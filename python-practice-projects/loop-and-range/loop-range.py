@@ -9,4 +9,6 @@ for n in range(10, 21):
         x += n
 print(x)
 
- 
+[40,32,73]
+for char in "Hello":
+    print(char)
