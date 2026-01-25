@@ -15,10 +15,14 @@
 
 # range(1,10)
 
-for letter in "Coffee":
-    print(letter*10)
+# for letter in "Coffee":
+#     print(letter*10)
 
-x = 0
+# x = 0
+
+# for n in range(10,20):
+#     if n % 2 != 0:
+#         x += n
 
 for i in range(11,20, 2):
     x += i
