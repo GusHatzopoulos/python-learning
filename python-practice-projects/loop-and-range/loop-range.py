@@ -16,4 +16,4 @@
 # range(1,10)
 
 for letter in "Coffee":
-    print(letter)
+    print(letter*10)
