@@ -12,5 +12,5 @@ for num in range(nums):
         print(f"{num} is odd!")
     elif num % 2 == 0:
         print(f"{num} is even!")
-    elif num == 4 or num == 13:
+    elif num == 4 or nums == 13:
         print(f"{num} is unlucky!")
