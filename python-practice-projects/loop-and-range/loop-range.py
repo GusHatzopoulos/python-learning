@@ -2,15 +2,18 @@
 # from 10 to 20 (inclusive) and store the
 # result in the variable x.
 
-x = 0
+# x = 0
 
-for n in range(10, 21):
-    if n % 2 != 0:
-        x += n
-print(x)
+# for n in range(10, 21):
+#     if n % 2 != 0:
+#         x += n
+# print(x)
 
-[40,32,73]
-for char in "Hello":
-    print(char)
+# [40,32,73]
+# for char in "Hello":
+#     print(char)
 
-range(1,10)
+# range(1,10)
+
+for letter in "Coffee":
+    print(letter)
