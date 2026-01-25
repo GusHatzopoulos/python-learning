@@ -8,10 +8,10 @@ nums = input("Enter a numbr for lucky and unlucky: ")
 nums = int(nums)
 
 for num in range(nums):
-    if num % 2 != 0:
-        print(f"{num} is odd!")
-    else:
-        print(f"{num} is even!")
-
     if num == 4 or num == 13:
-        print(f"{num} is unlucky!")
+        state = "unlucky!"
+    elif num % 2 != 0:
+        state = "odd!"
+    else:
+        state = "even!"
+    print(f"{num} is {state}")
