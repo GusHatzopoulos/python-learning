@@ -29,7 +29,7 @@ msg = input("Whats the secret password? ")
 while msg != "bananans":
     print("WRONG!") 
     msg = input("Whats the secret password? ")
-print("CORRECT!") 
+print("CORRECT!")
 
 for num in range(1,11):
     print(num)
