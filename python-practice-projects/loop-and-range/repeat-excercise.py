@@ -22,7 +22,7 @@ for num in range(nums):
     elif num % 2 != 0:
         state = "odd!"
     else:
-        state = "even!"  
+        state = "even!" 
     print(f"{num} is {state}")
 '''
 msg = input("Whats the secret password? ")
