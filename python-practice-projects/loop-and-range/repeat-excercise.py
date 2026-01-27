@@ -10,7 +10,7 @@ nums = int(nums)
 
 for num in range(nums):
     if num == 4 or num == 13:
-        print(f"{num} is unlucky!")
+        print(f"{num} is unlucky!") 
     elif num % 2 == 0:
         print(f"{num} is even!")
     else:
