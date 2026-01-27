@@ -18,7 +18,7 @@ for num in range(nums):
 
 for num in range(nums):
     if num == 4 or num == 13: 
-        state = "unlucky!"
+        state = "unlucky!" 
     elif num % 2 != 0:
         state = "odd!"
     else:
