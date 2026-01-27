@@ -17,7 +17,7 @@ for num in range(nums):
         print(f"{num} is odd!")
 
 for num in range(nums):
-    if num == 4 or num == 13:
+    if num == 4 or num == 13: 
         state = "unlucky!"
     elif num % 2 != 0:
         state = "odd!"
