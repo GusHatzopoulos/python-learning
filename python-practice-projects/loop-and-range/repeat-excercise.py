@@ -16,9 +16,9 @@ for num in range(nums):
     else:
         print(f"{num} is odd!")
 
-for num in range(nums):
-    if num == 4 or num == 13:
-        state = "unlucky!"
+for num in range(nums): 
+    if num == 4 or num == 13: 
+        state = "unlucky!" 
     elif num % 2 != 0:
         state = "odd!"
     else:
@@ -37,4 +37,4 @@ for num in range(1,11):
 num = 1
 while num < 11:
     print(num)
-    num += 2 
+    num += 2
